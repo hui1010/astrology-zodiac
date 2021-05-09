@@ -1,0 +1,1 @@
+export const SAVE_DAY = 'SAVE_DAY'
