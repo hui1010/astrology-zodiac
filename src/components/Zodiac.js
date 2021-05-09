@@ -57,7 +57,6 @@ function Zodiac() {
     return (
         <div className="output-content-inner zodiac">
             <p>Your Chinese Zodiac is <strong className="result zodiac-result">{animals[index]}</strong></p>
-            <p className="info">Paintings by <a className="info-link" href="https://baike.baidu.com/item/%E6%9D%8E%E5%B0%A4%E4%BF%8A#reference-[1]-3321755-wrap"> Li Youjun 李尤俊</a></p>
             <div className="img-char">
                 <div className="img-char-inner">
                     <div className="front">
@@ -67,7 +66,8 @@ function Zodiac() {
                         <p>{animalsChinese[index]}</p>
                     </div>               
                 </div>
-            </div>            
+            </div> 
+            <p className="info">Paintings by <a className="info-link" href="https://baike.baidu.com/item/%E6%9D%8E%E5%B0%A4%E4%BF%8A#reference-[1]-3321755-wrap"> Li Youjun 李尤俊</a></p>
         </div>
     )
 }
