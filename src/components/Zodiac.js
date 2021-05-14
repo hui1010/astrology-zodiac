@@ -66,7 +66,8 @@ function Zodiac() {
                         <p>{animalsChinese[index]}</p>
                     </div>               
                 </div>
-            </div> 
+            </div>         
+            <div className="placeholder"></div>        
             <p className="info">Paintings by <a className="info-link" href="https://baike.baidu.com/item/%E6%9D%8E%E5%B0%A4%E4%BF%8A#reference-[1]-3321755-wrap"> Li Youjun 李尤俊</a></p>
         </div>
     )
