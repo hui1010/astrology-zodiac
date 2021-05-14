@@ -69,7 +69,6 @@ input:focus {
   padding: 0 10px;
   cursor: pointer;
   transition: all;
-  margin-bottom: 20px;
 }
 .button-submit:active {
   background-color: rgb(172, 57, 238);
@@ -200,6 +199,9 @@ input:focus {
 
 .advice-button {
   height: 33px;
+  display: block;
+  margin: 10px auto;
+  font-family: "Mukta", sans-serif;
 }
 
 @media screen and (max-width: 900px) and (min-width: 450px) {
