@@ -108,7 +108,6 @@ function InputComponent() {
                 autoClose={5000}
                 hideProgressBar={false}
                 closeOnClick
-                pauseOnHover
                 draggable
                 pauseOnHover/>
         </div>

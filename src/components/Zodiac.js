@@ -52,7 +52,7 @@ function Zodiac() {
             default: setImage()
                     break
         }
-    }, [year])
+    }, [index])
     
     return (
         <div className="output-content-inner zodiac">
