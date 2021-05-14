@@ -30,8 +30,9 @@ function Advice() {
         .then(data => {
             const content = data.data
             const arr = content?.split('"advice"')
-            const advice = arr[1].substring(arr[1].indexOf('"') + 1, arr[1].lastIndexOf('.') + 1)
+            const advice = arr[1].substring(arr[1].indexOf('"') + 1, arr[1].lastIndexOf('"'))
             setPersonalAdvice(advice)})
+        .catch(e=>console.log(e))
     }, [adviceId])
    
 
