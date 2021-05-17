@@ -209,6 +209,9 @@ input:focus {
 }
 
 @media screen and (max-width: 900px) and (min-width: 450px) {
+  input {
+    font-size: 16px;
+  }
   .input-form label {
     display: inline-block;
     width: 60px;
@@ -240,6 +243,9 @@ input:focus {
 }
 
 @media screen and (max-width: 451px) {
+  input {
+    font-size: 16px;
+  }
   .input-form label {
     display: inline-block;
     width: 60px;
