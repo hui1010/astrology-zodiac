@@ -45,8 +45,8 @@ function Advice() {
         <div className="output-content-inner advice">
             <p>You {randomState? `random` : `personal`} advice based on your birthday is</p>           
             <p className="result advice-result">{personalAdvice}</p>        
-            <button className="advice-button random" onClick={handleRandomClick}>Try a random one</button>
-            <button className="advice-button personal" onClick={handlePersonalClick}>Get my personal one</button>
+            <button className="advice-button advice-random" onClick={handleRandomClick}>Try a random one</button>
+            <button className="advice-button advice-personal" onClick={handlePersonalClick}>Get my personal one</button>
             <p className="info">Advice from <a className="info-link" href="https://api.adviceslip.com/">Advice Slip JSON API</a></p>
         </div>
     )

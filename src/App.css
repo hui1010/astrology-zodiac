@@ -204,6 +204,10 @@ input:focus {
   font-family: "Mukta", sans-serif;
 }
 
+.advice-personal {
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 900px) and (min-width: 450px) {
   .input-form label {
     display: inline-block;
