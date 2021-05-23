@@ -126,6 +126,11 @@ input:focus {
   -webkit-transform: translateX(-50%);
   text-overflow: initial;
 }
+
+.info p {
+  margin: 5px 0;
+}
+
 .info-link {
   text-decoration: none;
 }
@@ -185,7 +190,7 @@ input:focus {
 
 .personality {
   position: absolute;
-  top: -20px;
+  top: -30px;
 }
 
 .personality strong {
