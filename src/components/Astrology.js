@@ -102,7 +102,9 @@ function Astrology() {
             <p>Your element is <strong className="result astrology-result">{element}</strong> </p>
             <img className="astrology-img" src={image} alt=""/>
             <p className="astrology-summary">{summary}</p>
-            <p className="info">Information from <a className="info-link" href="https://astrologybay.com/zodiac-characteristics">AstrologyBay</a></p>
+            <div className="info">
+            <p>Information from <a className="info-link" href="https://astrologybay.com/zodiac-characteristics">AstrologyBay</a></p>
+            </div>
         </div>
     )
 }

@@ -112,7 +112,7 @@ input:focus {
   position: relative;
 }
 
-.info::before {
+.info p::before {
   content: "*";
   color: rgb(153, 47, 214);
 }
@@ -124,6 +124,7 @@ input:focus {
   left: 50%;
   transform: translateX(-50%); /* 50%为自身尺寸的一半 */
   -webkit-transform: translateX(-50%);
+  text-overflow: initial;
 }
 .info-link {
   text-decoration: none;
@@ -177,9 +178,19 @@ input:focus {
   transform: rotateY(180deg);
 }
 
-.back p {
+.back .char {
   font-size: 100px;
   font-family: "Indie Flower", cursive;
+}
+
+.personality {
+  position: absolute;
+  top: -20px;
+}
+
+.personality strong {
+  font-size: 20px;
+  font-style: italic;
 }
 
 /* Advice */
@@ -214,7 +225,7 @@ input:focus {
   }
   .input-form label {
     display: inline-block;
-    width: 60px;
+    width: 40px;
     text-align: right;
     margin-right: 10px;
   }
@@ -248,7 +259,7 @@ input:focus {
   }
   .input-form label {
     display: inline-block;
-    width: 60px;
+    width: 40px;
     text-align: right;
     margin-right: 10px;
   }
