@@ -43,7 +43,7 @@ function Advice() {
     
     return (
         <div className="output-content-inner advice">
-            <p>You {randomState? `random` : `personal`} advice based on your birthday is</p>           
+            <p>Your {randomState? `random` : `personal`} advice based on your birthday is</p>           
             <p className="result advice-result">{personalAdvice}</p>        
             <button className="advice-button advice-random" onClick={handleRandomClick}>Try a random one</button>
             <button className="advice-button advice-personal" onClick={handlePersonalClick}>Get my personal one</button>
